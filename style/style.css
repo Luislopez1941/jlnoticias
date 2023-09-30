@@ -91,10 +91,6 @@ a {
     transition: all 0.5s ease-out;
 }
 
-a:hover {
-    opacity: 0.75;
-  }
-
   h1 {
     margin: 0;
     font-size: 2rem;
@@ -249,10 +245,34 @@ a:hover {
 
 .tecnologia {
     display: none;
+    padding: 20px;
 }
 
 #ultima-hora {
     display: block; /* Mostrar "Ultima Hora" por defecto */
+}
+
+.container__tecnologia {
+  color: var(--color-black);
+  margin-bottom: 20px;
+}
+
+.container__tecnologia a {
+  color: var(--color-black);
+  text-decoration: none;
+}
+
+.container__tecnologia a:hover {
+  background-color: none;
+  box-shadow: none;
+  
+}
+
+.continer__img-tec {
+  height: 150px;
+  background-position: center;
+  background-size: cover;
+  margin: 20px 0;
 }
 
 
@@ -524,7 +544,6 @@ a:hover {
     margin: 50px 0 50px 30px;
   }
 
-
 /*===============================================Deportes================================*/
 .container__nav-deportes {
   width: 100%;
@@ -545,6 +564,7 @@ a:hover {
 .container__nav-deportes::-webkit-scrollbar {
   display: none;
 }
+
 
 
 
